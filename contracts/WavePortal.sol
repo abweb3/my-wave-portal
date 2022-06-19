@@ -8,7 +8,7 @@ contract WavePortal {
     uint256 totalWaves;
 
     constructor() {
-        console.log("Yo yo, folks call me a Smart contract but, essentially i'm a self executing piece of code!");
+        console.log("Yo yo, I am a contract am I am smart");
     }
 
     function wave() public {
@@ -17,8 +17,7 @@ contract WavePortal {
     }
 
     function getTotalWaves() public view returns (uint256) {
-        console.log("we have %d total waves!", totalWaves);
+        console.log("We have %d total waves!", totalWaves);
         return totalWaves;
     }
-
 }
